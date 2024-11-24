@@ -86,6 +86,7 @@ function closeBanner() {
                 background: #EE5007;
 
                 &:hover {
+                    border: 1px solid #EE5007;
                     background: #dc3545;
                 }
 
