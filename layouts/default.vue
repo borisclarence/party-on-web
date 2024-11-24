@@ -1,8 +1,7 @@
 <template>
     <div>
         <!-- TODO: update this code -->
-
-        <header-brand />
+        <HeaderDefault />
 
         <div>
             <slot />
@@ -13,4 +12,7 @@
     </div>
 </template>
 
-<script src=""></script>
+<script lang="ts" setup>
+
+
+</script>
