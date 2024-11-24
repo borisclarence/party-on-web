@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    display: flex;
+} */
+
+body {
+    /* @apply bg-gray-500 */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* display: flex; */
+}
+
+@layer components {
+    .btn {
+        @apply bg-[#12b488] text-white px-3 py-2 rounded-md text-sm text-white;
+    }
+}
